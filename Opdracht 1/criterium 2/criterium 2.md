@@ -20,6 +20,7 @@
 |15|Als gebruiker wil ik noodcontacten instellen zodat ik snel hulp kan bereiken. | ja| Hoog | 4 uur
 |16|Als gebruiker wil ik een favoriet contact bellen met één knop zodat ik geen menu hoef te doorlopen. | ja | Middel | 2 uur
 |17|Als gebruiker wil ik een persoonlijk profiel kunnen beheren zodat ik mijn eigen contactgegevens kan delen met anderen.| Ja | Middel | 4 uur
+|18|Als ontwikkelaar wil ik een werkende applicatie hebben zodat ik zonder problemen verbinding kan maken met MongoDB. | Ja | Hoog | 8 uur
 
 
 
