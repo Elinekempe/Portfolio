@@ -3,11 +3,11 @@
 
 | US-id  | User storie  | Realistisch  | Prioiteit  | Duur  |
 |---    |---|---|---|---|
-|1 |Als gebruiker wil ik een GPS-functie zodat ik vrienden en hun contacten in de buurt kan zien.| nee  |  Hoog | 8 uur  |
+|1 |Als gebruiker wil ik een GPS-functie zodat ik vrienden en hun contacten in de buurt kan zien.| Nee  |  Hoog | 8 uur  |
 |2|Als gebruiker wil ik een contact kunnen toevoegen via een formulier zodat ik extra informatie (zoals geboortedatum, relatie, etc.) kan opslaan.|Ja|Hoog|2 uur |
-|3|Als gebruiker wil ik een foto aan een contact kunnen toevoegen zodat ik ze gemakkelijk herken. | ja | Middel | 4 uur |
-|4|Als gebruiker wil ik groepen kunnen maken zodat ik contacten kan categoriseren (bv. "Familie", "Werk"). | ja | Middel | 4 uur|
-|5|Als gebruiker wil ik rollen (bv. "Arts", "Collega") aan contacten toewijzen zodat ik ze snel kan filteren.| ja | Laag | 2 uur| 
+|3|Als gebruiker wil ik een foto aan een contact kunnen toevoegen zodat ik ze gemakkelijk herken. | Ja | Middel | 4 uur |
+|4|Als gebruiker wil ik groepen kunnen maken zodat ik contacten kan categoriseren (bv. "Familie", "Werk"). | Ja | Middel | 4 uur|
+|5|Als gebruiker wil ik rollen (bv. "Arts", "Collega") aan contacten toewijzen zodat ik ze snel kan filteren.| Ja | Laag | 2 uur| 
 |6|Als gebruiker wil ik notities aan een contact toevoegen zodat ik belangrijke details niet vergeet.| Ja | Laag | 2 uur| 
 |7|Als gebruiker wil ik een log van recente gesprekken zodat ik gemiste oproepen kan terugvinden. | Nee | Laag | 4 uur| 
 |8|Als gebruiker wil ik voicemails kunnen opslaan en afspelen zodat ik berichten niet mis.|Nee | Middel| 8 uur
@@ -17,8 +17,8 @@
 |12|Als gebruiker wil ik contacten instellen voor specifieke tijden zodat ik niet storend bel (bv. alleen ’s avonds). | Nee| Laag  | 8 uur
 |13|Als gebruiker wil ik badges verdienen zodat ik wordt herinnerd aan contactonderhoud. | Nee | Laag | 6 uur 
 |14|Als gebruiker wil ik een donkere/lichte modus zodat ik minder vermoeide ogen krijg. | Ja | Middel | 2 uur
-|15|Als gebruiker wil ik noodcontacten instellen zodat ik snel hulp kan bereiken. | ja| Hoog | 4 uur
-|16|Als gebruiker wil ik een favoriet contact bellen met één knop zodat ik geen menu hoef te doorlopen. | ja | Middel | 2 uur
+|15|Als gebruiker wil ik noodcontacten instellen zodat ik snel hulp kan bereiken. | Ja| Hoog | 4 uur
+|16|Als gebruiker wil ik een favoriet contact bellen met één knop zodat ik geen menu hoef te doorlopen. | Ja | Middel | 2 uur
 |17|Als gebruiker wil ik een persoonlijk profiel kunnen beheren zodat ik mijn eigen contactgegevens kan delen met anderen.| Ja | Middel | 4 uur
 |18|Als ontwikkelaar wil ik een werkende applicatie hebben zodat ik zonder problemen verbinding kan maken met MongoDB. | Ja | Hoog | 8 uur
 

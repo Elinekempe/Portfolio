@@ -5,8 +5,7 @@
 | Dag       | Geplande activiteit                                              | Werkelijke voortgang & acties                                           |
 |-----------|------------------------------------------------------------------|-------------------------------------------------------------------------|
 | Maandag   | Start sprint, doornemen PWA-module                               | Tijd om module door te nemen. 1 teamlid afwezig.
-| Dinsdag   | Brainstorm, start development, maken planning                    | Brainstorm gehouden; planning gemaakt.                                  |
-|           |                                                                  | Herhaling van module door afwezigheid teamlid                           |
+| Dinsdag   | Brainstorm, start development, maken planning                    | Brainstorm gehouden; planning gemaakt.                                  Herhaling van module door afwezigheid teamlid                           |
 | Woensdag  | Eerste versie PWA-functionaliteit en fetch-koppeling             | Gewerkt aan PWA; fetch en PWA koste veel tijd. 1 teamlid afwezig        |
 | Donderdag | Verder bouwen aan kernfunctionaliteit + testen                   | Samen met teamgenoot gefocust op werkende basis                         |
 | Vrijdag   | Laatste verbeteringen, presentatie voorbereiden                  | Tijd volledig benut voor werkende versie contactroulette & MongoDB      |
@@ -29,9 +28,8 @@
 ## Ondersteunend bewijsmateriaal
 
 - Bijgevoegde screenshots van de planning en de veranderingen gedurende de week. (Trello bord )
-- Takenbord is aangepast om taken te schrappen en te herplannen.
-- Eindproduct bevat de core-functionaliteit zoals gepland op donderdag/vrijdag.
+
 
 ## Conclusie
 
-Buiten een aantal tegenslagen tijdensde sprint (afwezigheid, ziekte, kennisachterstanden) is de voortgang goed bijgehouden en zijn er keuzes gemaakt om bepaalde functies te schrappen binnen het project om de belangrijkste functionaliteiten op tijd af te krijgen. Dit laat zien dat er goed en bewust is nagedacht over de prioriteiten van de functies binnen de periode. 
+Buiten een aantal tegenslagen tijdens de sprint (afwezigheid, ziekte, kennisachterstanden) is de voortgang goed bijgehouden en zijn er keuzes gemaakt om bepaalde functies te schrappen binnen het project om de belangrijkste functionaliteiten op tijd af te krijgen. Dit laat zien dat er goed en bewust is nagedacht over de prioriteiten van de functies binnen de periode. 
