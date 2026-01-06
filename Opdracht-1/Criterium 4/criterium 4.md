@@ -33,3 +33,5 @@
 ## Conclusie
 
 Buiten een aantal tegenslagen tijdens de sprint (afwezigheid, ziekte, kennisachterstanden) is de voortgang goed bijgehouden en zijn er keuzes gemaakt om bepaalde functies te schrappen binnen het project om de belangrijkste functionaliteiten op tijd af te krijgen. Dit laat zien dat er goed en bewust is nagedacht over de prioriteiten van de functies binnen de periode. 
+
+---

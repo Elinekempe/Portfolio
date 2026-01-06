@@ -10,9 +10,9 @@
 
 ---
 
-## Hoe Tests Uit Te Voeren
+## Hoe tests uit te voeren
 
-### Frontend Tests
+### Frontend tests
 
 **1. Dependencies installeren:**
 ```bash
@@ -30,7 +30,7 @@ CI=true npm test -- --watchAll=false
 CI=true npm test -- --coverage --watchAll=false
 ```
 
-### Backend Tests
+### Backend tests
 
 **1. Dependencies installeren:**
 ```bash
@@ -45,7 +45,7 @@ npm test
 
 ---
 
-## Overzicht Testbestanden
+## Overzicht testbestanden
 
 | # | Testbestand | Doel | Type |
 |---|-------------|------|------|
@@ -64,9 +64,9 @@ npm test
 
 ## Testscenario's
 
-### 1. Homepage Tests
+### 1. Homepage tests
 
-#### Scenario 1.1: Homepage Laadt Content
+#### Scenario 1.1: Homepage laadt content
 
 **Stappen:**
 1. Roep de HomePage component aan met gemockte useHome hook
@@ -81,14 +81,14 @@ useHome mock: {
 }
 ```
 
-**Verwacht Resultaat:**
+**Verwacht resultaat:**
 -  Titel "Porky SMP" wordt getoond
-- Link naar rules pagina is aanwezig
+-  Link naar rules pagina is aanwezig
 -  Geen foutmelding zichtbaar
 
 ---
 
-#### Scenario 1.2: Homepage Toont Loading-Status
+#### Scenario 1.2: Homepage toont loading-status
 
 **Stappen:**
 1. Roep HomePage aan met loading state
@@ -103,13 +103,13 @@ useHome mock: {
 }
 ```
 
-**Verwacht Resultaat:**
+**Verwacht resultaat:**
 -  Bericht "Loading content…" wordt weergegeven
-- Geen inhoud is zichtbaar
+-  Geen inhoud is zichtbaar
 
 ---
 
-#### Scenario 1.3: Homepage Toont Fout bij Mislukken
+#### Scenario 1.3: Homepage toont fout bij mislukken
 
 **Stappen:**
 1. Roep HomePage aan met error state
@@ -124,15 +124,15 @@ useHome mock: {
 }
 ```
 
-**Verwacht Resultaat:**
+**Verwacht resultaat:**
 -  Foutmelding "Failed to load content." wordt weergegeven
 -  Geen inhoud is zichtbaar
 
 ---
 
-### 2. Carousel Tests
+### 2. Carousel tests
 
-#### Scenario 2.1: Carousel Navigatie met Dots
+#### Scenario 2.1: Carousel navigatie met dots
 
 **Stappen:**
 1. Render carousel met 3 afbeeldingen
@@ -146,14 +146,14 @@ images: ['a.jpg', 'b.jpg', 'c.jpg']
 autoPlay: false
 ```
 
-**Verwacht Resultaat:**
--  Dot 0 start met klasse 'bg-pink-600' (actief)
+**Verwacht resultaat:**
+- Dot 0 start met klasse 'bg-pink-600' (actief)
 - Dot 1 krijgt klasse 'bg-pink-600' na klik
 - Slide indicator verandert
 
 ---
 
-#### Scenario 2.2: Carousel Navigatie met Pijlen
+#### Scenario 2.2: Carousel navigatie met pijlen
 
 **Stappen:**
 1. Render carousel met 3 afbeeldingen
@@ -167,16 +167,16 @@ images: ['a.jpg', 'b.jpg', 'c.jpg']
 autoPlay: false
 ```
 
-**Verwacht Resultaat:**
--  Next/previous knoppen werken correct
+**Verwacht resultaat:**
+- Next/previous knoppen werken correct
 - Indicatoren updaten bij navigatie
--  Carousel cycled through slides
+- Carousel werkt zoals verwacht
 
 ---
 
-### 3. Access Control Tests
+### 3. Access control tests
 
-#### Scenario 3.1: PrivateRoute voor Geauthenticeerde Gebruiker
+#### Scenario 3.1: PrivateRoute voor geauthenticeerde gebruiker
 
 **Stappen:**
 1. Render PrivateRoute met geauthenticeerde user
@@ -190,13 +190,13 @@ useAuth mock: {
 }
 ```
 
-**Verwacht Resultaat:**
+**Verwacht resultaat:**
 -  Beschermde inhoud ("Protected Content") wordt weergegeven
 -  Geen redirect naar login
 
 ---
 
-#### Scenario 3.2: PrivateRoute Redirect voor Niet-Geauthenticeerde Gebruiker
+#### Scenario 3.2: PrivateRoute redirect voor niet-geauthenticeerde gebruiker
 
 **Stappen:**
 1. Render PrivateRoute zonder geauthenticeerde user
@@ -210,15 +210,15 @@ useAuth mock: {
 }
 ```
 
-**Verwacht Resultaat:**
+**Verwacht resultaat:**
 -  Redirect naar "/auth" wordt geactiveerd
 -  Beschermde inhoud is niet zichtbaar
 
 ---
 
-### 4. Input Component Tests
+### 4. Input component tests
 
-#### Scenario 4.1: URL-Normalisatie (Protocol Toevoegen)
+#### Scenario 4.1: URL-normalisatie (protocol toevoegen)
 
 **Stappen:**
 1. Render InputWithFavicon met waarde "example.com"
@@ -232,14 +232,14 @@ Input waarde: "example.com"
 Verwacht na blur: "https://example.com"
 ```
 
-**Verwacht Resultaat:**
+**Verwacht resultaat:**
 -  Protocol (https://) wordt automatisch toegevoegd
 -  onChange event wordt aangeroepen met genormaliseerde URL
 -  Input bevat volledige URL
 
 ---
 
-#### Scenario 4.2: Favicon Preview voor Geldig Domein
+#### Scenario 4.2: Favicon preview voor geldig domein
 
 **Stappen:**
 1. Render InputWithFavicon
@@ -253,16 +253,16 @@ Input waarde: "example.com"
 Favicon URL: bevat "example.com"
 ```
 
-**Verwacht Resultaat:**
+**Verwacht resultaat:**
 -  Favicon preview afbeelding wordt geladen
 -  Afbeelding src bevat Google favicon service URL
 -  Afbeelding is zichtbaar in input
 
 ---
 
-### 5. UI Component Tests
+### 5. UI component tests
 
-#### Scenario 5.1: Button Destructive Variant
+#### Scenario 5.1: Button destructive variant
 
 **Stappen:**
 1. Render Button met variant="destructive"
@@ -273,13 +273,13 @@ Favicon URL: bevat "example.com"
 Props: { variant: "destructive" }
 ```
 
-**Verwacht Resultaat:**
+**Verwacht resultaat:**
 -  Button bevat klasse 'bg-red-500'
 -  Destructive stijl is toegepast
 
 ---
 
-#### Scenario 5.2: Button Large Size
+#### Scenario 5.2: Button large size
 
 **Stappen:**
 1. Render Button met size="lg"
@@ -290,15 +290,15 @@ Props: { variant: "destructive" }
 Props: { size: "lg" }
 ```
 
-**Verwacht Resultaat:**
+**Verwacht resultaat:**
 -  Button bevat klasse 'h-11'
 -  Large size stijl is toegepast
 
 ---
 
-### 6. Utility Function Tests
+### 6. Utility function tests
 
-#### Scenario 6.1: Class Name Utility (cn)
+#### Scenario 6.1: Class name utility (cn)
 
 **Stappen:**
 1. Roep cn('a', false && 'b', 'c') aan
@@ -309,7 +309,7 @@ Props: { size: "lg" }
 Input: 'a', false && 'b', 'c'
 ```
 
-**Verwacht Resultaat:**
+**Verwacht resultaat:**
 ```
 Output: 'a c'
 ```
@@ -318,7 +318,7 @@ Output: 'a c'
 
 ---
 
-#### Scenario 6.2: Favicon URL Constructor
+#### Scenario 6.2: Favicon URL constructor
 
 **Stappen:**
 1. Roep getFaviconUrl('example.com') aan
@@ -329,16 +329,16 @@ Output: 'a c'
 Input domein: 'example.com'
 ```
 
-**Verwacht Resultaat:**
+**Verwacht resultaat:**
 -  URL bevat 'google.com/s2/favicons'
 -  URL bevat 'domain=example.com' parameter
 -  URL is geldig en kan opgehaald worden
 
 ---
 
-### 7. Data Fetching Hook Tests
+### 7. Data fetching hook tests
 
-#### Scenario 7.1: useHome Hook Laadt Data Succesvol
+#### Scenario 7.1: useHome hook laadt data succesvol
 
 **Stappen:**
 1. Render component met useHome hook
@@ -350,9 +350,9 @@ Input domein: 'example.com'
 Fetch mock retourneert: JSON array []
 ```
 
-**Verwacht Resultaat:**
+**Verwacht resultaat:**
 
-**Loading State Flow:**
+**Loading state flow:**
 ```
 loading: true → fetch → loading: false
 ```
@@ -363,7 +363,7 @@ loading: true → fetch → loading: false
 
 ---
 
-#### Scenario 7.2: useHome Hook Handelt Fetch Error Af
+#### Scenario 7.2: useHome hook handelt fetch error af
 
 **Stappen:**
 1. Render component met useHome hook
@@ -375,14 +375,14 @@ loading: true → fetch → loading: false
 Fetch mock retourneert: failed response (ok: false)
 ```
 
-**Verwacht Resultaat:**
+**Verwacht resultaat:**
 - Loading wordt false
 - Error wordt ingesteld
--  Component toont error state correct
+- Component toont error state correct
 
 ---
 
-#### Scenario 7.3: useRules Hook Laadt Data Succesvol
+#### Scenario 7.3: useRules hook laadt data succesvol
 
 **Stappen:**
 1. Render component met useRules hook
@@ -394,9 +394,9 @@ Fetch mock retourneert: failed response (ok: false)
 Fetch mock retourneert: JSON array []
 ```
 
-**Verwacht Resultaat:**
+**Verwacht resultaat:**
 
-**Loading State Flow:**
+**Loading state flow:**
 ```
 loading: true → fetch → loading: false
 ```
@@ -406,7 +406,7 @@ loading: true → fetch → loading: false
 
 ---
 
-#### Scenario 7.4: useRules Hook Handelt Fetch Error Af
+#### Scenario 7.4: useRules hook handelt fetch error af
 
 **Stappen:**
 1. Render component met useRules hook
@@ -417,15 +417,15 @@ loading: true → fetch → loading: false
 Fetch mock retourneert: failed response
 ```
 
-**Verwacht Resultaat:**
+**Verwacht resultaat:**
 -  Loading wordt false
 -  Error wordt ingesteld
 
 ---
 
-### 8. Backend API Tests
+### 8. Backend API tests
 
-#### Scenario 8.1: Test Endpoint Retourneert Status 200
+#### Scenario 8.1: Test endpoint retourneert status 200
 
 **Stappen:**
 1. Maak GET request naar /api/test
@@ -436,7 +436,7 @@ Fetch mock retourneert: failed response
 Request: GET /api/test
 ```
 
-**Verwacht Resultaat:**
+**Verwacht resultaat:**
 
 | Property | Waarde |
 |----------|--------|
@@ -445,7 +445,7 @@ Request: GET /api/test
 
 ---
 
-#### Scenario 8.2: Home Endpoint Retourneert JSON Array
+#### Scenario 8.2: Home endpoint retourneert JSON array
 
 **Stappen:**
 1. Maak GET request naar /api/home
@@ -456,7 +456,7 @@ Request: GET /api/test
 Request: GET /api/home
 ```
 
-**Verwacht Resultaat:**
+**Verwacht resultaat:**
 
 | Property | Waarde |
 |----------|--------|
@@ -466,7 +466,7 @@ Request: GET /api/home
 
 ---
 
-#### Scenario 8.3: Rules Endpoint Retourneert JSON Array
+#### Scenario 8.3: Rules endpoint retourneert JSON array
 
 **Stappen:**
 1. Maak GET request naar /api/rules
@@ -477,7 +477,7 @@ Request: GET /api/home
 Request: GET /api/rules
 ```
 
-**Verwacht Resultaat:**
+**Verwacht resultaat:**
 
 | Property | Waarde |
 |----------|--------|
@@ -487,7 +487,7 @@ Request: GET /api/rules
 
 ---
 
-## Test Statistieken
+## Test statistieken
 
 | Type | Aantal | Status | Percentage |
 |------|--------|--------|------------|

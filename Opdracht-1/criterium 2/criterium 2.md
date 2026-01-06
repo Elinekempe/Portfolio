@@ -40,7 +40,7 @@
 - GPS-functionaliteit is geïntegreerd
 - Privacy-instellingen zijn geïmplementeerd
 - Getest op nauwkeurigheid en snelheid
-
+---
 ### 2. (2 uur – Hoog)
 **Als** gebruiker  
 **Wil ik** een contact kunnen toevoegen via een formulier  
@@ -53,7 +53,7 @@
 **Definition of Done:**
 - Formulier is responsive en valideert invoer
 - Data wordt correct opgeslagen in de database
-
+---
 ### 3. (4 uur – Middel)
 **Als** gebruiker  
 **Wil ik** een foto aan een contact kunnen toevoegen  
@@ -66,7 +66,7 @@
 **Definition of Done:**
 - Foto’s worden geoptimaliseerd voor opslag
 - Werkt op zowel iOS als Android
-
+---
 ### 4. (4 uur – Middel)
 **Als** gebruiker  
 **Wil ik** groepen kunnen maken  
@@ -78,7 +78,7 @@
 
 **Definition of Done:**
 - Groepen worden lokaal en in de cloud gesynchroniseerd
-
+---
 ### 5. (2 uur – Laag)
 **Als** gebruiker  
 **Wil ik** rollen aan contacten toewijzen  
@@ -91,3 +91,4 @@
 **Definition of Done:**
 - Rollen zijn aanpasbaar en zichtbaar in een apart tabblad
 
+---

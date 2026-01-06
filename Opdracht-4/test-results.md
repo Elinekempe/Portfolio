@@ -1,6 +1,6 @@
-# 🧪 Testresultaten Rapport - PorkySMP
+#  Testresultaten rapport - PorkySMP
 
-## 📊 Teststatistieken
+## Teststatistieken
 
 | Categorie | Waarde |
 |-----------|--------|
@@ -11,22 +11,22 @@
 | **Frontend Tests** | 9 bestanden |
 | **Backend Tests** | 1 bestand |
 
----
+
 
 ## Screenshots
 
-### Frontend Tests
+### Frontend tests
 ![Frontend Testresultaten](test-frontend.png)
 
-### Backend Tests
+### Backend tests
 ![Backend Testresultaten](test-backend.png)
 
 ---
 
 
-##  Gedetailleerde Testresultaten
+##  Gedetailleerde testresultaten
 
-### 1.  Homepage Tests
+### 1.  Homepage tests
 
 | Test | Status | Beschrijving |
 |------|--------|--------------|
@@ -36,7 +36,7 @@
 
 ---
 
-### 2.  Carousel Tests
+### 2.  Carousel tests
 
 | Test | Status | Beschrijving |
 |------|--------|--------------|
@@ -51,7 +51,7 @@
 
 ---
 
-### 3.  Access Control Tests
+### 3.  Access control tests
 
 | Test | Status | Beschrijving |
 |------|--------|--------------|
@@ -60,7 +60,7 @@
 
 ---
 
-### 4.  Input Component Tests
+### 4.  Input component tests
 
 | Test | Status | Beschrijving |
 |------|--------|--------------|
@@ -74,7 +74,7 @@
 
 ---
 
-### 5.  UI Component Tests
+### 5.  UI component tests
 
 | Test | Status | Beschrijving |
 |------|--------|--------------|
@@ -83,7 +83,7 @@
 
 ---
 
-### 6.  Utility Function Tests
+### 6.  Utility function tests
 
 | Test | Status | Beschrijving |
 |------|--------|--------------|
@@ -92,7 +92,7 @@
 
 ---
 
-### 7.  Data Fetching Hook Tests (useHome)
+### 7.  Data fetching hook tests (useHome)
 
 | Test | Status | Beschrijving |
 |------|--------|--------------|
@@ -106,7 +106,7 @@ loading: true → fetch → loading: false
 
 ---
 
-### 8.  Data Fetching Hook Tests (useRules)
+### 8.  Data fetching hook tests (useRules)
 
 | Test | Status | Beschrijving |
 |------|--------|--------------|
@@ -120,7 +120,7 @@ loading: true → fetch → loading: false
 
 ---
 
-### 9.  Markdown Component Test
+### 9.  Markdown component tests
 
 | Test | Status | Beschrijving |
 |------|--------|--------------|
@@ -128,7 +128,7 @@ loading: true → fetch → loading: false
 
 ---
 
-### 10.  Backend API Tests
+### 10.  Backend API tests
 
 | Endpoint | Status | Response Code | Beschrijving |
 |----------|--------|---------------|--------------|

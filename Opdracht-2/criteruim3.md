@@ -11,21 +11,21 @@ Bevat 3 actoren (Speler, Nieuwe Speler, Timer), 1 systeem en 10 use cases (goals
 ### Activity diagram (hoe verloopt de gameflow?)
 Toont de hele spelcyclus in een loop. Belangrijke beslissingen: klik op cel, is de cel al onthuld/gevlagd, eerste klik (start timer), is het een mijn (verlies), quick‑loss (≤1s), en gewonnen? Bij winnen worden highscores gecheckt/opgeslagen en is er feedback (geluid/confetti) met herstart.
 
----
+
 
 ## 2. Ethiek
 - Quick‑loss (eerste klik ≤ 1s) geeft een snelle melding en auto‑restart. Dit voorkomt frustratie door pech en voelt eerlijk.
 - Transparantie: timer is zichtbaar, win/lose meldingen zijn duidelijk, highscores zijn per niveau.
 - Toegankelijk: niveaus maken instappen makkelijk en uitdagend voor verschillende spelers.
 
----
+
 
 ## 3. Privacy (dataminimalisatie)
 - We slaan alleen de beste tijd per niveau op in `localStorage` (geen naam, e‑mail, IP of tracking). Dit zie je terug bij UC9/UC10 en in de activity‑stap “Highscore check & opslaan”.
 - Alles draait lokaal in de browser en is te verwijderen via browserinstellingen.
 - Als er later online highscores komen, dan met toestemming, transparantie en een optie om te verwijderen.
 
----
+
 
 ## 4. Security (veilig gebruik, consistente state)
 - Validaties: je kunt niet opnieuw klikken op onthulde/gevlagde cellen. Acties na gameOver worden genegeerd. Coördinaten blijven binnen het bord. Dit voorkomt rare states.
