@@ -19,22 +19,15 @@ De bedoeling is dat de speler een veld met verborgen mijnen moet zien te overlev
 
 
 ## Opdracht 3: Porky SMP
-
-De link van de repository wordt meegegeven bij het inleveren van het portfolio. In deze meegegeven link is de README.md te vinden met uitleg over de opdracht.
-
+PorkySMP is een Minecraft-server met veel externe functies en plugins. Deze website is gebouwd om een ​​verzameling afzonderlijke componenten te centraliseren en te organiseren in één uniforme website.
 
 
 ## Opdracht 4: Porky SMP
-
-De link van de repository wordt meegegeven bij het inleveren van het portfolio. In deze meegegeven link is de README.md te vinden met uitleg over de opdracht.
-
+PorkySMP is een Minecraft-server met veel externe functies en plugins. Deze website is gebouwd om een ​​verzameling afzonderlijke componenten te centraliseren en te organiseren in één uniforme website.
 
 
 ## Opdracht 5: Porky-SMP
-De link van de repository wordt meegegeven bij het inleveren van het portfolio. In deze meegegeven link is de README.md te vinden met uitleg over de opdracht.
-
-
-
+PorkySMP is een Minecraft-server met veel externe functies en plugins. Deze website is gebouwd om een ​​verzameling afzonderlijke componenten te centraliseren en te organiseren in één uniforme website.
 
 ## Opdracht 6: Porky-SMP
 In deze opdracht worden meerdere video's laten zien en de afspraken die in het team zijn gemaakt.
@@ -49,3 +42,9 @@ Presentatie van de Porky-SMP.
 ## Opdracht 8: Retrospective Porky-SMP
 
 Retrospective van de Porky-SMP.
+
+
+## Links naar repositories
+- [Contact App](https://github.com/martijntjee/contact-app)
+- [Minesweeper Game](https://github.com/Elinekempe/Minesweeper)
+- [Porky-SMP](https://github.com/Bit-Academy-Students/PorkySMP-vsb-inc) 
