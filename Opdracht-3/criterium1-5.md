@@ -1,7 +1,7 @@
 # Code realiseren
 
 Hier is de link van de repository van de Porky-SMP waar de code te vinden is:
-- [Porky-SMP](github.com/Bit-Academy-Students/PorkySMP-vsb-inc)
+- [Porky-SMP](https://github.com/Bit-Academy-Students/PorkySMP-vsb-inc)
 
 In deze repository is de code te vinden die is geschreven voor de Porky-SMP website. 
 Dit project is gemaakt in het Engels omdat de projectowner dit graag wilde aangezien de Porky-SMP een internationale Minecraft server is.
