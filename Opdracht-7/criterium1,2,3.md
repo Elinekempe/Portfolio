@@ -4,7 +4,7 @@
 
 Bekijk de volledige presentatie van ons Porky-SMP project:
 
-### [ Presentatie Opnamen](https://youtu.be/R5x9CAb0urg)
+### [ Presentatie opnamen](https://youtu.be/R5x9CAb0urg)
 
 
 

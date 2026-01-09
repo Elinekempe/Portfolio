@@ -11,7 +11,7 @@
 
 ### Introductie
 
-Dit project is ontstaan in een vierdaagse sprint zonder klant. Dit betekent dat er geen lijst was met de eisen. In plaats hiervan heb ik met mijn team in een brainstormsessie de klantwensen die wij zelf zouden hebben voor dit project opgeschreven en uitgewerkt.
+Dit project is ontstaan in een vierdaagse sprint zonder klant. We hadden wel een begeleider. Dat was Ties Noordhuis in de project. Dit betekent dat er geen lijst was met de eisen. In plaats hiervan heb ik met mijn team in een brainstormsessie de klantwensen die wij zelf zouden hebben voor dit project opgeschreven en uitgewerkt.
 
 
 ### Product omschrijving
@@ -79,4 +79,4 @@ Een belangrijk aspect van dit project is de technische setting. De opdracht was 
 - De applicatie is offline te gebruiken en installeerbaar
 - Bewerken pagina laadt en slaat wijzigingen lokaal op
 
----
+

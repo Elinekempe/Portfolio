@@ -121,8 +121,8 @@ Visitor -down-> UC10
 Timer -down-> UC6
 Timer -down-> UC7
 
-UC8 .right.> UC9 : <<include>>
-UC3 .up.> UC6 : <<trigger>>
+UC8 -right-> UC9 : <<include>>
+UC3 -up-> UC6 : <<include>>
 
 note top of UC2
   **Opties:**

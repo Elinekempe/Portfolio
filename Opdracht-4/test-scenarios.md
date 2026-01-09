@@ -8,7 +8,7 @@
 | **Frontend Testbestanden** | 9 |
 | **Backend Testbestanden** | 1 |
 
----
+
 
 ## Hoe tests uit te voeren
 
@@ -43,7 +43,6 @@ npm install
 npm test
 ```
 
----
 
 ## Overzicht testbestanden
 
@@ -60,7 +59,7 @@ npm test
 | 9 | `useRules.test.js` | Regels data-fetching hook | Frontend |
 | 10 | `api.test.js` | Backend API endpoints | Backend |
 
----
+
 
 ## Testscenario's
 
@@ -128,7 +127,7 @@ useHome mock: {
 -  Foutmelding "Failed to load content." wordt weergegeven
 -  Geen inhoud is zichtbaar
 
----
+
 
 ### 2. Carousel tests
 
@@ -172,7 +171,7 @@ autoPlay: false
 - Indicatoren updaten bij navigatie
 - Carousel werkt zoals verwacht
 
----
+
 
 ### 3. Access control tests
 
@@ -214,7 +213,7 @@ useAuth mock: {
 -  Redirect naar "/auth" wordt geactiveerd
 -  Beschermde inhoud is niet zichtbaar
 
----
+
 
 ### 4. Input component tests
 
@@ -258,7 +257,6 @@ Favicon URL: bevat "example.com"
 -  Afbeelding src bevat Google favicon service URL
 -  Afbeelding is zichtbaar in input
 
----
 
 ### 5. UI component tests
 
@@ -294,7 +292,6 @@ Props: { size: "lg" }
 -  Button bevat klasse 'h-11'
 -  Large size stijl is toegepast
 
----
 
 ### 6. Utility function tests
 
@@ -334,7 +331,6 @@ Input domein: 'example.com'
 -  URL bevat 'domain=example.com' parameter
 -  URL is geldig en kan opgehaald worden
 
----
 
 ### 7. Data fetching hook tests
 
@@ -421,7 +417,7 @@ Fetch mock retourneert: failed response
 -  Loading wordt false
 -  Error wordt ingesteld
 
----
+
 
 ### 8. Backend API tests
 
@@ -485,7 +481,7 @@ Request: GET /api/rules
 | Response type | JSON array |
 | Content | Kan leeg of gevuld zijn |
 
----
+
 
 ## Test statistieken
 
@@ -495,6 +491,6 @@ Request: GET /api/rules
 | **Backend Tests** | 3 | ✅ Groen | 14.3% |
 | **Totaal** | **21** | **✅ 100% Groen** | **100%** |
 
----
+
 
 

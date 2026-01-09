@@ -21,7 +21,7 @@
 ### Backend tests
 ![Backend Testresultaten](test-backend.png)
 
----
+
 
 
 ##  Gedetailleerde testresultaten
@@ -34,7 +34,7 @@
 | Error state | ✅ | Toont "Failed to load content." bij foutmelding |
 | Title & Rules link | ✅ | Rendert "Porky SMP" titel en link naar rules pagina correct |
 
----
+
 
 ### 2.  Carousel tests
 
@@ -49,7 +49,7 @@
 -  Previous knop verlaagt slide index
 -  Correcte slide cycling
 
----
+
 
 ### 3.  Access control tests
 
@@ -58,7 +58,6 @@
 | Authenticated rendering | ✅ | Toont beschermde content voor ingelogde gebruikers |
 | Unauthenticated redirect | ✅ | Redirect naar `/auth` voor niet-ingelogde gebruikers werkt correct |
 
----
 
 ### 4.  Input component tests
 
@@ -72,7 +71,7 @@
 -  Google favicon service URL constructie
 -  Debounce functionaliteit
 
----
+
 
 ### 5.  UI component tests
 
@@ -81,7 +80,7 @@
 | Destructive variant | ✅ | Button met destructive variant krijgt `bg-red-500` klasse |
 | Size large | ✅ | Button met large size krijgt `h-11` klasse |
 
----
+
 
 ### 6.  Utility function tests
 
@@ -90,7 +89,7 @@
 | `cn()` class joining | ✅ | Filtert falsy waarden en voegt truthy classnames samen |
 | `getFaviconUrl()` | ✅ | Construeert correcte Google favicon service URL met domain parameter |
 
----
+
 
 ### 7.  Data fetching hook tests (useHome)
 
@@ -104,7 +103,7 @@
 loading: true → fetch → loading: false
 ```
 
----
+
 
 ### 8.  Data fetching hook tests (useRules)
 
@@ -118,7 +117,7 @@ loading: true → fetch → loading: false
 loading: true → fetch → loading: false
 ```
 
----
+
 
 ### 9.  Markdown component tests
 
@@ -126,7 +125,6 @@ loading: true → fetch → loading: false
 |------|--------|--------------|
 | Markdown rendering | ✅ | Rendert markdown headings correct als h1 elementen |
 
----
 
 ### 10.  Backend API tests
 
@@ -136,7 +134,7 @@ loading: true → fetch → loading: false
 | `GET /api/home` | ✅ | 200 | Retourneert JSON array met home content |
 | `GET /api/rules` | ✅ | 200 | Retourneert JSON array met rules content |
 
----
+
 
 ##  Conclusie
 

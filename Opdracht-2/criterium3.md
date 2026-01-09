@@ -3,6 +3,16 @@
 Dit document legt kort en duidelijk uit wat je ziet in de twee UML‑diagrammen en waarom ze zo zijn gemaakt. 
 
 
+## Waarom een Use Case diagram en een Activity diagram?
+
+Door gebruik te maken van zowel een Use Case diagram en een Acticity diagram, krijgen we een compleet beeld van zowel de functionaliteiten en de workflow van de mineweeper game.  
+
+- **Use Case diagram**: Beantwoordt "WHAT en WHO?". Welke functies heeft het spel? Wie doet wat (speler, timer)? Dit geeft een compleet overzicht van alle doelen en acties in het systeem.
+- **Activity diagram**: Beantwoordt "HOW en FLOW?". Hoe verloopt het spel stap voor stap? Wat gebeurt er na een klik? Dit geeft een volledig beeld op de activiteiten die gebreurten tijdens het spel.
+
+De twee diagrammen bij elkaar geven ze een volledig beeld: wat het systeem kan doen (use cases) en hoe het dat doet (activity flow). 
+
+
 ## 1. Hoe laten de diagrammen dit zien?
 
 ### Use case diagram (wat kan de gebruiker/systeem doen?)
@@ -33,5 +43,5 @@ Toont de hele spelcyclus in een loop. Belangrijke beslissingen: klik op cel, is 
 - LocalStorage: een gebruiker kan lokaal vals spelen (tijd aanpassen), maar dit is single‑player en zonder beloningen. Acceptabel risico. Een servervariant kan later checksums/validatie krijgen.
 - Data is niet te achterhalen door derden omdat alles lokaal is opgeslagen.
 
----
+
 

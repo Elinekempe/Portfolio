@@ -13,7 +13,7 @@ Video van een sprint review over de Porky-SMP opdracht:
 | **Teamleden** | Simon Oud • Eline Kempe |
 | **Coaches** | Koen Rood |
 
----
+
 
 ## Sprint review meeting
 
@@ -30,9 +30,9 @@ Video van een wekelijkse meeting over de Porky-SMP opdracht:
 | **Coach** | Ties Noordhuis |
 
 
-### Dit is de notulen van deze meeting: 
+### Dit zijn de notulen van deze meeting: 
 
-- Styling verbeteren, verbetering van het kleurgebruik waardoor de leesbaarheid toeneemt.
-- Presentatie voorbereiden van het project.
-- Documentatie schrijven voor het project. 
-- Retrospective video opnemen.   
+- Styling verbeteren, verbetering van het kleurgebruik waardoor de leesbaarheid toeneemt
+- Presentatie voorbereiden van het project
+- Documentatie schrijven voor het project 
+- Retrospective video opnemen
