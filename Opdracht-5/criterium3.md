@@ -2,7 +2,7 @@
 
 ## Toegankelijkheid
 
-Op dit moment is de website niet toegankelijk voor mensen met een visuele, auditieve of motorische beperking. Dit zou moeten worden verbeterd in de toekomst zodat iedereen de website goed kan gebruiken. Hierbij kan worden gedacht aan oplossingen zoals voice-over functionaliteit en een toetsenbord-navigatie. Hierdoor wordt de website toegankelijker en gebruiksvriendelijker voor iedereen en vergroten we het bereik van de website. 
+Op dit moment is de website niet toegankelijk voor mensen met een visuele, auditieve of motorische beperking. Dit zou moeten worden verbeterd in de toekomst zodat iedereen de website goed kan gebruiken. Hierbij kan worden gedacht aan oplossingen zoals voice-over functionaliteit en een toetsenbord-navigatie. Hierdoor wordt de website toegankelijker en gebruiksvriendelijker voor iedereen en vergroten we het bereik van de website.
 
 Verbetervoorstellen: 
 - Voeg voice-over functionaliteit toe voor blinden en slechtzienden.
