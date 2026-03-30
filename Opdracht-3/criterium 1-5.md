@@ -1,6 +1,6 @@
 # Code realiseren
 
-Hier is de link van de repository van **CycleTrack** waar de code te vinden is:
+Hier is de link van de repository naar **CycleTrack** waar de code te vinden is:
 - [CycleTrack](https://github.com/Elinekempe/CycleTrack)
 
 
@@ -29,14 +29,14 @@ De website bestaat uit één pagina met deze onderdelen:
 
 ## Functionaliteiten
 
-Hieronder volt een overzicht van de verschillende functionaliteiten die zijn toegevoegd aan de website:
+Hieronder volgt een overzicht van de verschillende functionaliteiten die zijn toegevoegd aan de website:
 
 ### Kalender
 
 - Maandweergave met klikbare dagen
 - Kleurcodering voor menstruatie, ovulatie en vruchtbare fase
 - Highlight voor vandaag en geselecteerde dag
-- Kleine indicatoren voor gelogde data
+- Kleine puntjes voor weergave van gelogde data
 
 ### Daginvoer
 
@@ -60,17 +60,16 @@ Hieronder volt een overzicht van de verschillende functionaliteiten die zijn toe
 
 ### Data & privacy
 
-- Gegevens lokaal opsla
-an in de browser met localStorage
+- Gegevens lokaal opslaan in de browser met localStorage
 - Privacymodus om gevoelige informatie op het scherm te vervagen
 
 ## Resultaat
 
-Het resultaat is een werkende, overzichtelijke en privacyvriendelijke website waarmee gebruikers dagelijks hun cyclusdata kunnen opslaan en terugzien in een kalender.
+Het resultaat is een werkende, overzichtelijke en privacyvriendelijke website waarmee gebruikers dagelijks hun cyclusdata kunnen opslaan en terugzien in een kalender en daaruit de juiste informatie kunnen halen.
 
 ## Vervolgstappen
 
 - Export/import van data
 - Extra statistieken en grafieken
-- Toegankelijkheid verbeteren (toetsenbordnavigatie/ARIA)
-- Unit tests voor cyclusberekeningen
+- Toegankelijkheid verbeteren
+- Responsief design voor mobiele apparaten
