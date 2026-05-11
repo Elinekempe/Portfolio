@@ -1,75 +1,69 @@
 # Code realiseren
 
-Hier is de link van de repository naar **CycleTrack** waar de code te vinden is:
-- [CycleTrack](https://github.com/Elinekempe/CycleTrack)
+Hier is de link van de repository naar **ArtiestenWiki** waar de code te vinden is:
+- [ArtiestenWiki](https://github.com/Elinekempe/ArtiestenWiki)
 
 
 ## Ontwikkeltools
 
-Dit project is een website voor het bijhouden van cyclusgegevens.  
+Dit project is een website waar je informatie kunt vinden over verschillende artiesten, hun albums en populaire nummers.  
 Hiervoor zijn de volgende ontwikkeltools gebruikt:
 
-- HTML
+- HTML 
 - Vanilla JavaScript
 - Tailwind CSS
-- localStorage
+- JSON-data voor de artiestenlijst
 
 ## Projectstructuur
 
-De website bestaat uit één pagina met deze onderdelen:
-- **Header + navigatie** - Maandnavigatie, vandaag/reset en privacyknop
-- **Kalender** - Maandweergave met kleuren per cyclusfase
-- **Dagdetail** - Invoer van symptomen, mood, tags, intensiteit en notities
-- **Filters** - Filteren op symptomen en mood
-- **Voorspelling** - Schatting van volgende menstruatie en ovulatie
-- **Statistieken** - Overzicht van gemiddelde intensiteit
+De website bestaat uit twee pagina's met deze onderdelen:
+
+1.  **Startpagina + navigatie** - Zoekveld, sorteermogelijkheden en overzicht van artiestenkaarten
+      -  **Artiestenkaarten** - Visuele kaarten met foto, genre, land en top hits
+2.   **Detailpagina** - Uitgebreide informatie over één artiest
+        -  **Lijsten** - Albums, hits en extra gegevens per artiest
 
 ---
-
 
 ## Functionaliteiten
 
 Hieronder volgt een overzicht van de verschillende functionaliteiten die zijn toegevoegd aan de website:
 
-### Kalender
+### Overzichtspagina
 
-- Maandweergave met klikbare dagen
-- Kleurcodering voor menstruatie, ovulatie en vruchtbare fase
-- Highlight voor vandaag en geselecteerde dag
-- Kleine puntjes voor weergave van gelogde data
+- Lijst met artiestenkaarten
+- Sorteren op naam, genre, land en jaren actief
+- Zoekfunctie op naam, genre, awards en land
+- Duidelijke melding wanneer er geen resultaten zijn
 
-### Daginvoer
+### Artiestkaarten
 
-- Opslaan en verwijderen van gegevens per datum
-- Symptomen, mood en tags via knoppen
-- Intensiteit via slider
-- Notities per dag
-- Extra switches voor menstruatie en gemeenschap
+- Afbeelding of fallback-icoon per artiest
+- Naam, land, genre en actieve jaren
+- Top 3 hits zichtbaar op de kaart
+- Klikbaar naar de detailpagina
 
-### Filters
+### Detailpagina
 
-- Filter op symptoom
-- Filter op mood
-- Dagen zonder match visueel lichter maken
+- Uitgebreide artiestinformatie
+- Afbeelding, biografie en basisgegevens
+- Lijsten met albums en hits
+- Website-link
+- Foutmelding als een artiest niet gevonden wordt
 
-### Voorspelling & statistiek
+### Data & structuur
 
-- Simpele voorspelling van volgende menstruatie
-- Indicatie van ovulatiemoment
-- Gemiddelde intensiteit op basis van ingevulde entries
-
-### Data & privacy
-
-- Gegevens lokaal opslaan in de browser met localStorage
-- Privacymodus om gevoelige informatie op het scherm te vervagen
+- Gegevens worden geladen uit `artists.json`
+- Logica is opgesplitst in losse JavaScript-bestanden
+- Detailpagina is verdeeld over meerdere bestanden voor duidelijkere structuur
 
 ## Resultaat
 
-Het resultaat is een werkende, overzichtelijke en privacyvriendelijke website waarmee gebruikers dagelijks hun cyclusdata kunnen opslaan en terugzien in een kalender en daaruit de juiste informatie kunnen halen.
+Het resultaat is een overzichtelijke artiestenwebsite waarmee gebruikers artiesten kunnen zoeken, sorteren en bekijken in detail met een moderne en visuele interface.
 
 ## Vervolgstappen
 
-- Export/import van data
-- Extra statistieken en grafieken
-- Toegankelijkheid verbeteren
-- Responsief design voor mobiele apparaten
+- Extra filters toevoegen
+- Meer detailinformatie per artiest tonen
+- Overgangen en animaties verfijnen
+- Mobiele weergave mogelijk maken 

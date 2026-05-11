@@ -19,12 +19,10 @@ Hoe mijn minesweeper eruitziet:
 
 ![Minesweeper voorbeeld](./Opdracht-2/minesweeper.png)
 
-## Opdracht 3: CycleTrack
-CycleTrack is een website waarop je per dag je cyclus, klachten en notities bijhoudt en die dit overzichtelijk toont in een kalender met simpele voorspellingen en statistieken.
+## Opdracht 3: ArtiestenWiki
+ArtiestenWiki is een website waar je informatie kunt vinden over verschillende artiesten, hun albums en populaire nummers. De website is ontworpen om gebruikers een gemakkelijke manier te bieden om meer te weten te komen over hun favoriete artiesten en muziek. 
 
-Hoe CycleTrack eruitziet:
-
-![CycleTrack voorbeeld](./Opdracht-3/CycleTrack.png)
+![ArtiestenWiki voorbeeld](./Opdracht-3/ArtiestenWiki.png)
 
 ## Opdracht 4: Porky-SMP
 Porky-SMP is een Minecraft-server met veel externe functies en plugins. Deze website is gebouwd om een ​​verzameling afzonderlijke componenten te centraliseren en te organiseren in één  website.
@@ -50,5 +48,5 @@ Retrospective van de Porky-SMP.
 ## Links naar repositories
 - [Contact app](https://github.com/martijntjee/contact-app)
 - [Minesweeper game](https://github.com/Elinekempe/Minesweeper)
-- [CycleTrack](https://github.com/Elinekempe/CycleTrack)
+- [ArtiestenWiki](https://github.com/Elinekempe/ArtiestenWiki)
 - [Porky-SMP](https://github.com/Bit-Academy-Students/PorkySMP-vsb-inc)
